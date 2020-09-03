@@ -1,5 +1,5 @@
-<!-- 	Template Authors: Stefan Lang, Eva Missoni - PLUS 
-		Template Creation Date: March-June 2020 
+<!-- 	Authors: Santiago Molano - KU Leuven 
+		Template Creation Date: August 2020 
 		
 		IMPORTANT NOTICES FOR USERS/AUTHORS: 
 		SECTIONS TO BE EDITED BY AUTHORS ARE INDICATED AS FOLLOWS:  <!-- AUTHORS: DEFINE ... --> 
@@ -14,20 +14,19 @@
 	<head>
 		<meta charset="utf-8">
 		 
-		<title>SDI performance and assessment</title>
+		<title>Management view on SDI</title>
 
 		<link rel="stylesheet" href="internal_restricted/v1.0/css/reveal.css">
 		<!-- CHOOSE BETWEEN 2 EO4GEO TEMPLATE THEMES:-->
 		<link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo.css" id="theme"> <!-- white background design --> 
-		<!-- <link rel="stylesheet" href="internal_restricted/v1.0/plugin/markdown/css/theme/simplemenu.css"> -->
-		<!-- <link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo_grey.css" id="theme">  <!-- anthrazit background design --> 
+		<!--link rel="stylesheet" href="internal_restricted/v1.0/plugin/markdown/css/theme/simplemenu.css"><!-- anthrazit background design --> 
 		<!-- EO4GEO FONT ROBOTO SLAB -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'> 
 		<link rel="stylesheet" href="partnerLogo.css" id="theme"> 
 		<link rel="stylesheet" href="customer_content/css/eo4geo_override.css" id="theme">
 
-    <!-- base target="_blank" --> <!-- All links in the presentation are opened in a seperate tab"-->
-    
+    <base target="_blank"> <!-- All links in the presentation are opened in a seperate tab"-->
+ 
 	</head>
 
 	<body>
@@ -40,831 +39,154 @@
 				 <div class = "eo4geologo" style="width: 11%;height : 11%" ></div>	
 			
 				 <div class = "partnerlogo" style="width: 15%;height : 11%" ></div>		
-				 <div  class = "presentation_title" style=" text-align: center " >SDI performance and assessment</div>	<!--The title of the presentation appears on each slide-->
+				 <div  class = "presentation_title" style=" text-align: center " > Management view on SDI
+				</div>	<!--The title of the presentation appears on each slide-->
 				 
 
 			<!-- AUTHORS: DEFINE METADATA FOR WHOLE SLIDESET HERE: (Dublin Core Metadata format, complemented by BoK-Concepts) >
 				@prefix dc: <http://purl.org/dc/terms/>.
 				@prefix eo4geo: <http://bok.eo4geo.eu/>.
-				<>  	dc:title "SDI performance and assessment";
-					dc:creator "Glenn Vancauwenberghe";
-					dc:subject "SDI";
-					dc:abstract " SDI performance assessment is about collecting, analyzing and providing information on the performance of SDI initiatives. Assessment and evaluations of SDIs are a useful tool for those organizations and people directly involved in these initiatives, but also for researchers, citizens, journalists and other stakeholders. Decision makers and practitioners can use assessments to monitor the progress against the objectives of their SDI initiatives and to identify areas where improvement can be achieved. Assessment also allows to compare and benchmark the performance of different organizations or countries, and to learn from best practices. Finally, assessment also is relevant for accountability, since it enables governments and agencies to be held accountable for their decisions, activities and the resources they have invested. The lecture explains the 3 main categories of assessment for SDIs: readiness assessment, implementation of data assessments and impact assessment. Several frameworks to measure the performance of SDI initiatives are explained.";
-					dc:tableOfContents "(1)Introduction (2) Why SDI assessments is important (3) The span of performance; 
-						(4) The depth of performance;";
-					dc:description "Learning outcomes: Compare different frameworks for assessing Spatial Data Infrastructures;
+				<>  	dc:title "Management view on SDI";
+					dc:creator "-----";
+					dc:subject "Spatial Data Infrastructures";
+					dc:abstract "This module gives an overview of the non-technical aspects related to Spatial Data Infrastructures (SDI). In an SDI several technical and non-technical components work together. This module focuses on the non-technical components and is targeting process owners and managers.";
+					dc:tableOfContents "(1) General introduction to Spatial Data Infrastructures; (2) SDI and data policies; (3) SDI governance and allocation of tasks; (4) SDI and processes; (5) SDI performance and assessment; ";
+					dc:description "Learning outcomes:Learning outcomes: Explain the main objectives of an SDI;
+					Explain the relevant technological issues around development and implementation of Spatial Data Infrastructures (SDI);
+					Identify and discuss the different components of an SDI;
+					Use the models of ‘SDI generations’ and ‘SDI components’ to describe the main elements of an existing SDI initiative;
+					Identify the benefits of an SDI for your organisation;
+					Describe political, economic, administrative, and other social forces in agencies, organizations, and citizens that inhibit or promote sharing of geospatial and other data;
+					Explain the evolution towards open data policies;
+					Identify barriers for data sharing in your own organisation;
+					Explain the link between SDI and other (open) data policies;
+					Design an effective governance structure for a national SDI;
+					Discuss the governance structure in place of a particular country;
+					Explain what SDI governance is and why it is important in the development and implementation of SDIs;
+					List and execute the main tasks to be executed in SDI implementation;
+					Apply different models of tasks allocation to real SDIs;
+					Explain the different instruments for SDI governance;
+					Provide examples of existing SDI governance instruments;
+					Explain the importance of work processes in the context of SDI;
+					Apply the essential elements of business process management to SDI processes;
+					Prepare a model of an SDI work process;
+					Compare different frameworks for assessing Spatial Data Infrastructures;
 					Design an SDI assessment framework and methodology for assessing and evaluating an SDI;
 					Develop a strategy to improve the performance of an SDI initiative;
-					Explain the results of an SDI assessment";
-					dc:contributor "--";
+					Explain the results of an SDI assessment";";
+					dc:contributor "------";
 					dc:created "2020-09-03";
 					dc:type "InteractiveResource";
 					dc:format "html";
 					dc:language "EN"; 
-					dc:SizeOrDuration "1.5h"
-					dc:audience "---";
+					dc:SizeOrDuration "7.5h"
+					dc:audience "students";
 					dc:educationLevel "EQF 4";
-					dc:source " here to place sources"";
+					dc:source "-----"";
 					dc:rightsHolder "SADL, KU Leuven";
 					dc:license "CC BY-SA 4.0";
-					dc:relation eo4geo:"OI4-5b".	
+					dc:relation eo4geo:OI3;
+					dc:relation eo4geo:OI4-5b;
+					dc:relation eo4geo:GS1;
+					dc:relation eo4geo:GS2;
+					dc:relation eo4geo:OI3;
+					dc:relation eo4geo:OI4;
+					dc:relation eo4geo:GS3.	
 								-->
 
 
-				<div class="slides">
+			<div class="slides">
 				
 			
-				<!-- AUTHORS: DEFINE CONTENT ON YOUR FIRST SLIDE --> 
-				
-				
-				<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section class="scrollable">
-					<h1>Copernicus</h1> 
-					<br>Copernicus and Galileo are the two flagships of the <em>European Space Policy</em>. Galileo denotes the European satellite navigation system, while Copernicus is the name of the European Earth observation <a href="https://www.copernicus.eu">programme</a>
-					<br><img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
-				</section>
-				
-					<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section >
-					<h1>Copernicus</h1> 
-					<br>
-					 
-					<br><img  style="width: 100%; max-width: 600px; max-height:600px; height:100%" data-src="resources\2560pxAERONET.jpg" alt="Copernicus allegory">
-					 
-				</section>
-				
-				<!-- AUTHORS: Same content as above - now as example in Markdown language   --> <!-- AUTHORS: for horizontally organised slides, use three dashes ---, for vertical slides two dashes -- -->
-				<!--section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
-				                    <script type="text/template">
-                        # What is Copernicus?
-                        (A demo slide deck using the Reveal.js framework)
+			<section >
 					
-						
-                        ---
-						
-                        # Copernicus
-                        Copernicus and Galileo are the two flagships of the European Space Policy. Galileo denotes the European satellite navigation system, while Copernicus is the name of the <a href="https://www.copernicus.eu">European Earth observation programme</a>
-						<img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
-						
-						
-						--
-						
-						# Earth observation (EO)
-						EO is one out of three main space assets
-						- SatNav
-                        - SatCom
-						- SatObs (EO)
-						
-						<img width="600" height="250" data-src="resources\template_WhatCopernicus\3SpaceComponents.png" alt="3SpaceComponents">	
-                    </script>
-                </section-->
+					<h1 style="font-size:60px">Management view on SDI</h1><br>
+					<h2 style="font-size:30px"> Spatial  data  infrastructures (SDI) are a set of technological and non-technological components meant to facilitate access, exchange and re-use of geospatial data within and between organisations.</h2><br> 
+					<img width="300" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="KU Leuven" align=center-left>
+					<img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+
+			</section>
 				
+					
 			
 				
 				<!-- AUTHORS: DEFINE SECTIONS WITHIN A SECTION TO GET VERTICAL SLIDES:--> 
-				<section > 
-						<br><h1 style="font-size:40px">WELCOME! </h1> 
-						<p style="font-size:22px; text-align:Justify">With the following slides and interactive material you will be able to take part in the journey to discover <strong><span style="color: rgb(41, 105, 176);">Spatial Data Infrastructures</span></strong> (<em>SDI</em>) its components and benefits through the observation of multiple examples.&nbsp;</p><br>
-						<p style="font-size:22px; text-align:Justify">You can navigate through the course by pressing the navigation arrows at the bottom of each slide or using your arrow keys on your keyboard. You can move horizontally <span style="color: rgb(44, 130, 201);"><strong>(</strong></span><span style="color: rgb(41, 105, 176);"><strong>&larr; &rarr;)</strong>&nbsp;</span>for viewing each theme and vertically <strong><span style="color: rgb(44, 130, 201);">(&uarr;&darr;)</span></strong> to navigate through its contents.&nbsp;</p>
-												
-
-						<br><img height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/navigation_arrows.png" alt="navigation arrows">	
+			<section > 
+					<section > 
+						<br><h1>WELCOME! </h1> 
+						<p>With the following modules and interactive material you will be able to take part in the journey to discover  <strong><span style="color: rgb(41, 105, 176);">Spatial Data Infrastructures</span></strong> (<em>SDI</em>) its components and benefits through the observation of multiple examples.&nbsp;</p><br>
+						<p>You can navigate through the different modules of this course using the horizontal arrows <span style="color: rgb(44, 130, 201);"><strong>(</strong></span><span style="color: rgb(41, 105, 176);"><strong>&larr; &rarr;)</strong>&nbsp;</span> and clicking on the <span style="color: rgb(230, 126, 34);"><b>TITLE</b></span> or in the link icon placed on each page:</p>								
+						<br><img height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/image4689.png" alt="link icon">	
 						
 						<aside class="notes">
 						You can find your presenter notes here (hit »S« on your keyboard).
 						</aside>
-				</section >
+					</section >
+			</section>
+
+			<section id="01.01">									
 				<section >
-					<h1 style="font-size:50px">SDI performance and assessment</h1><br>
-					<p style="font-size:30px">How SDI perfom in comparison with others SDI's, learning from best practices and options for improvement</p><br>
+					<a href=""><h1 style="font-size:60px">01 | General introduction to Spatial Data Infrastructures</h1></a><br>
+					<h2 style="font-size:30px"> ------- </h2><br>
+					<img height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="SADL" align=center-left>
+					<img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+					<a href=""><img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/image4689.png" alt="KU Leuven" align=center-right></a>
+				</section>
+			</section>
+
+			<section >
+				<section >
+					<a href=""><h1 style="font-size:58px">02 | SDI and data policies</h1></a><br>
+					<h2 style="font-size:30px"> -------- </h2><br>
+					<img width="300" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="SADL" align=center-left class="plain">
+					<img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right class="plain">
+					<a href=""><img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/image4689.png" alt="KU Leuven" align=center-right></a>
+				</section>			
+			</section>
+
+			<section>
+				<section >
+					<a href=""><h1 style="font-size:60px">03 | SDI governance and allocation of tasks</h1></a><br>
+					<h2 style="font-size:40px"> ------ </h2><br>
 					<img width="300" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="SADL" align=center-left>
 					<img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+					<a href=""><img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/image4689.png" alt="KU Leuven" align=center-right></a>
 				</section>
 
-				<section id="slide2">
-					<div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
-					   <h2 style="color:#5DADE2;">SDI performance and assessment</h2>
-					</div><br><br><br>
-					<div style="position: absolute; width: 100%; left: 0em">
-					<table>
-						
-						<tr><th>#</th><th align="center"></th></tr>
-						<tr><td><a href="#slide3">1</a></td><td>Introduction</td></tr>
-						<tr><td><a href="#slide8">2</a></td><td>Why SDI assessment is important</td></tr>
-						<tr><td><a href="#slide13">3</a></td><td>The span of performance</td></tr>
-						<tr><td><a href="#slide26">4</a></td><td>The depth of performance</td></tr>
-					</table></div>
-					<aside class="notes">
-					No notes for slide 2
+			</section>
+			<section>
+				<section >
+					<a href=""><h1 style="font-size:60px">04 | SDI and processes </h1></a><br>
+					<h2 style="font-size:30px">---------- </h2><br>
+					<img width="300" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="SADL" align=center-left>
+					<img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+					<a href=""><img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/image4689.png" alt="KU Leuven" align=center-right></a>
 				</section>
-					<section id="slide3">
-					<div class="ppt-txt" style="position: absolute; top: 50px; left: 207px; height: 164px;  width: 546px">
-					<p style="color:grey; text-align: left"><b style="color:#5DADE2" >1. Introduction</b><br>
-					2. Why SDI assessment is important<br>
-					3. The span of performance<br>
-					4. The depth of performance</p>
-					 </div>
-
-					</section>
-					<section id="slide4">
-					   <div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
-					<h2>SDI performance and assessment</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 153px; left: 66px; height: 331px;  width: 828px">
-					<ul><li style="font-size: 30.33px;">Is about providing an answer to questions such as:
-					</li>
-					<li style="font-size: 32px;">How is my SDI performing?
-					</li>
-					<li style="font-size: 32px;">How is an SDI doing in comparison with other SDI’s?
-					</li>
-					<li style="font-size: 32px;">Is my SDI performing better than five years ago?
-					</li>
-					<li style="font-size: 32px;">Which SDI is the best SDI in the world?
-					</li>
-					<li style="font-size: 32px;">Why is this the best SDI in the world? 
-					</li>
-					<li style="font-size: 32px;">What should I do to make my SDI better? 
-					</li>
-					   </div>
-					<aside class="notes">
-					No notes for slide 4
-					</section>
-					<section id="slide5">
-					   <div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
-					<h2>Learning activity (introduction)</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 120px; left: 63px; height: 367px;  width: 828px">
-					<p style="font-size: 30.33px;">Go to:
-					</p>
-					<p style="font-size: 30.33px;">http://opendatabarometer.org/ (home page)
-					</p>
-					<p style="font-size: 30.33px;">https://index.okfn.org/ (“places’ or ‘compare countries’)
-					</p>
-					<br>
-					<p style="font-size: 30.33px;">Questions
-					</p>
-					<p style="font-size: 30.33px;">Who is leading?
-					</p>
-					<p style="font-size: 30.33px;">How is your country doing?
-					</p>
-					<p style="font-size: 30.33px;">What does this all mean (e.g. leading in what?)? 
-					</p>
-					<p style="font-size: 30.33px;">Where’s the ‘spatial’ component?
-					</p>
-					   </div>
-					<aside class="notes">
-					Notes for slide 5
-					Try to answer these questions based on the information provided on the main pages of the website. For further details/information, check the information on the methodology used for both assessments.<br>5<br></aside>
-					</section>
-					<section>
-					<div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
-					<h2>Learning activity (introduction)</h2>
-					   </div>
-					<div class="ppt-txt" style="position: absolute; top: 120px; left: 63px; height: 367px;  width: 828px">
-					<iframe src="http://opendatabarometer.org/" width="828px"; height="500px"></iframe></div>
-					</section>
-					<section>
-					<div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
-					<h2>Learning activity (introduction)</h2>
-					   </div>
-					<div class="ppt-txt" style="position: absolute; top: 120px; left: 63px; height: 367px;  width: 828px">
-					<iframe src="https://index.okfn.org/" width="828px"; height="500px"></iframe></div>
-					</section>
-
-					<section id="slide6">
-					   <div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
-					<h2>SDI assessment </h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 120px; left: 63px; height: 367px;  width: 828px">
-					<p style="font-size: 30.33px;">SDI assessment is about measuring the performance of an SDI
-					</p>
-					<br>
-					<p style="font-size: 30.33px;">SDI assessment deals with collecting, interpreting, sharing and using information on the performance of – particular aspects of – an SDI  </p>
-					   </div>
-
-
-					<aside class="notes">
-					No notes for slide 6
-					</section>
-					<section id="slide7">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>History of SDI assessment</h2>
-					   </div>
-					   <div class="art-div" style="position: absolute; top: 101px; left: 146px; height: 377px;  width: 684px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/smartart7.png"></img>
-					   </div>
-					<aside class="notes">
-					Notes for slide 7
-					Over the past 20 years, a broad range of SDI assessment frameworks has been developed and implemented by SDI researchers and practitioners (e.g. Crompvoets et al., 2008). These frameworks address various aspects and components of SDIs. <br>7<br></aside>
-					</section>
-					<section id="slide8">
-					   <div class="ppt-txt" style="position: absolute; top: 50px; left: 207px; height: 164px;  width: 546px">
-					<p style="color:grey; text-align: left">1. Introduction<br>
-					<b style="color:#5DADE2" >2. Why SDI assessment is important</b><br>
-					3. The span of performance<br>
-					4. The depth of performance</p>
-					 </div>
-
-					</section>
-					<section id="slide9">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2 >Why assessment is important</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 57px; height: 349px;  width: 875px">
-					<p style="font-size: 18px;">Information on the performance (of government initiatives and policies) can be used in many different ways
-					</p>
-					<br>
-					<br>
-					<br>					
-					<br>
-					<p style="font-size: 18px;">In general, there are three main categories of using performance information:<br><br>
-					</p><ol>
-					<li style="font-size: 18px;">retrospective achievement: letting decision makers know in comparative terms how their country or organization is performing
-					</li>
-					<li style="font-size: 18px;">prospective direction/priorities: assisting policy makers and practitioners with strategic decision making and future implementation projects
-					</li>
-					<li style="font-size: 18px;">accountability: enabling governments and agencies to be held to account for the resources they have invested
-					</li>
-					<br>
-					<br>
-					<br></ol>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 145px; left: 249px; height: 112px;  width: 484px">
-					<table>
-					<tr><td><ol>
-					<li style="font-size: 18px;">To evaluate
-					</li>
-					<li style="font-size: 18px;">To control
-					</li>
-					<li style="font-size: 18px;">To budget
-					</li>
-					<li style="font-size: 18px;">To motivate
-					</li></ol></td>
-					<td><ol start="5">
-					<li style="font-size: 18px;">To promote
-					</li>
-					<li style="font-size: 18px;">To celebrate
-					</li>
-					<li style="font-size: 18px;">To learn
-					</li>
-					<li style="font-size: 18px;">To improve</li></ol></td></tr>
-					</table>
-					   </div>
-					<aside class="notes">
-					No notes for slide 9
-					</section>
-					<section id="slide10">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Incorporation of performance information</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 162px; left: 57px; height: 354px;  width: 875px">
-					<ul><li style="font-size: 24px;">Incorporation = intentionally importing performance-related data and information in documents and procedures with the potential and purpose of using them
-					</li>
-					<br>
-					<li style="font-size: 24px;">Ensuring/institutionalizing the use of performance information
-					</li>
-					<br>
-					<li style="font-size: 24px;">Examples:
-					<ul>
-					<li style="font-size: 20px;">In the policy cycle: performance information is included in policy preparation, implementation, monitoring and evaluation
-					</li>
-					<li style="font-size: 20px;">In the contract cycle: performance information is included in the design, implementation and evaluation of contracts between different parties
-					</li></ul>
-					<br></li></ul>
-					   </div>
-					<aside class="notes">
-					No notes for slide 10
-					</section>
-					<section id="slide11">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Example: INSPIRE </h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 57px; height: 349px;  width: 875px">
-					<p style="font-size: 24px;">INSPIRE Directive art. 17
-					</p>
-					<br>
-					   
-						<div class="ppt-txt" style="position: absolute; top: 35px; left: 50px; height: 290px;  width: 800px">
-						  <p style="font-size: 23px;">Network services are necessary for sharing spatial data between the various levels of public authority in the Community. Those network services should make it possible to discover, transform, view and download spatial data and to invoke spatial data and e-commerce services. The services of the network should work in accordance with commonly agreed specifications and <b>minimum performance criteria </b>in order to ensure the interoperability of the infrastructures established by the Member States. The network of services should also include the technical possibility to enable public authorities to make their spatial data sets and services available.
-						</p>
-					   </div>
-					<aside class="notes">
-					Notes for slide 11
-					The European INSPIRE Directive explicitly refers to minimum performance criteria to ensure the interoperability of SDIs<br>11<br></aside>
-					</section>
-					<section id="slide12">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Example: INSPIRE (2)</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 96px; left: 93px; height: 330px;  width: 814px">
-					<p style="font-size: 20px; font-weight: bold;">Implementing Rule on Network Services
-					</p>
-					<br>
-					<p style="font-size: 14px; font-weight: bold;">1.   PERFORMANCE
-					</p>
-					<p style="font-size: 14px;">The response time for sending the initial response to a Discovery service request shall be maximum 3 seconds in normal situation.
-					</p>
-					<p style="font-size: 14px;">For a 470 Kilobytes image (e.g. 800 × 600 pixels with a colour depth of 8 bits), the response time for sending the initial response to a Get Map Request to a view service shall be maximum 5 seconds in normal situation.
-					</p>
-					<p style="font-size: 14px;">Normal situation represents periods out of peak load. It is set at 90 % of the time.
-					</p>
-					<br>
-					<p style="font-size: 14px; font-weight: bold;">2.   CAPACITY
-					</p>
-					<p style="font-size: 14px;">The minimum number of served simultaneous requests to a discovery service according to the performance quality of service shall be 30 per second.
-					</p>
-					<p style="font-size: 14px;">The minimum number of served simultaneous service requests to a view service according to the performance quality of service shall be 20 per second.
-					</p>
-					<br>
-					<p style="font-size: 14px; font-weight: bold;">3.   AVAILABILITY
-					</p>
-					<p style="font-size: 14px;">The probability of a Network Service to be available shall be 99 % of the time.
-					</p>
-					   </div>
-					<aside class="notes">
-					Notes for slide 12
-					These criteria are further defined in the implementing rules, such as the implementing rule on network services, which determines criteria related to the response time, capacity, and availability. <br>12<br></aside>
-					</section>
-					<section id="slide13">
-					   <div class="ppt-txt" style="position: absolute; top: 50px; left: 207px; height: 164px;  width: 546px">
-					<p style="color:grey; text-align: left">1. Introduction<br>
-					2. Why SDI assessment is important<br>
-					<b style="color:#5DADE2" >3. The span of performance<br></b>
-					4. The depth of performance</p>
-					 </div>
-
-
-					<aside class="notes">
-					No notes for slide 13
-					</section>
-					<section id="slide14">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Assessment is about performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 57px; height: 349px;  width: 875px">
-					<br>
-					<br>
-					<p style="font-size: 24px;">Many different meanings of performance:
-					</p><ul>
-					<li style="font-size: 18px;">Between disciplines: geomatics, spatial planning, economics, social sciences, managerial sciences 
-					</li>
-					<li style="font-size: 18px;">Within one discipline: no consensus on the meaning of SDI performance 
-					</li></ul>
-					<br><br>
-					<p style="font-size: 24px;">To create some clarity, a distinction can be made between 
-					</p><ul>
-					<li style="font-size: 20px;">the span of performance
-					</li>
-					<li style="font-size: 20px;">the depth of performance 
-					</li></ul>
-					   </div>
-					<aside class="notes">
-					No notes for slide 14
-					</section>
-					<section id="slide15">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<p style="font-size: 32px; text-align: center;">Span of performance</p>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 57px; height: 349px;  width: 875px">
-					<br>
-					<p style="font-size: 20px;"><b>Horizontal</b> dimension of performance
-					</p>
-					<br>
-					<p style="font-size: 20px;">Refers to performance in terms of <ul>
-					</p>
-					<p style="font-size: 20px;">	1. inputs that are processed in activities, 
-					</p>
-					<p style="font-size: 20px;">	2. these activities result in outputs (products or services)
-					</p>
-					<p style="font-size: 20px;">	3. which finally (should) lead to certain outcomes 
-					</p></ul>
-					<br>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 0px; left: 0px; height: 0px;  width: 0px">
-					<br>
-					   </div>
-					   <div class="img-div" style="position: absolute; top: 379px; left: 233px; height: 35px;  width: 495px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image4.png"></img>
-					   </div>
-
-					<aside class="notes">
-					Notes for slide 15
-					15<br></aside>
-					</section>
-					<section id="slide16">
-					   <div class="ppt-txt" style="position: absolute; top: 508px; left: 384px; height: 17px;  width: 108px">
-					<br>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Span of SDI performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 144px; left: 119px; height: 317px;  width: 722px">
-					<p style="font-size: 24px;">‘Performance’ of SDI can be defined and measured in various ways:
-					</p><ul>
-					<li style="font-size: 20px;">Readiness of the infrastructure
-					</li>
-					<li style="font-size: 20px;">Organizational maturity of the infrastructure
-					</li>
-					<li style="font-size: 20px;">Suitability of the geoportal
-					</li>
-					<li style="font-size: 20px;">Level of implementation of different components
-					</li>
-					<li style="font-size: 20px;">Availability of geographic data
-					</li>
-					<li style="font-size: 20px;">Application of principles of open data
-					</li>
-					<li style="font-size: 20px;">Number of users of geographic data
-					</li>
-					<li style="font-size: 20px;">Use of geographic data in society
-					</li>
-					<li style="font-size: 20px;">Social benefits of the infrastructure
-					</li>
-					<li style="font-size: 20px;">Economic benefits of open geographic data
-					</li>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					   </div>
-					<aside class="notes">
-					Notes for slide 16
-					16<br></aside>
-					</section>
-					<section id="slide17">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Span of SDI performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 57px; height: 349px;  width: 875px">
-					<p style="font-size: 24px;">Thinking in terms of ‘input – output – outcome - impact’ to create some clarity
-					</p>
-					<br><ul>
-					<li style="font-size: 20px;"><b>Input:</b> technological and non-technological components of an SDI
-					</li>
-					<br>
-					<li style="font-size: 20px;"><b>Output: </b>availability and accessibility of spatial data
-					</li>
-					<br>
-					<li style="font-size: 20px;"><b>Outcome:</b> use of spatial data by public administration, businesses, citizens, …
-					</li>
-					<br>
-					<li style="font-size: 20px;"><b>Impact:</b> internal and external benefits of spatial data
-					</li>
-					   </div>
-					<aside class="notes">
-					No notes for slide 17
-					</section>
-					<section id="slide18">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>SDI assessment </h2>
-					   </div>
-					
-						 <div class="img-div" style="position: absolute; top: 104px; left: 214px; height: 50px;  width: 531px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image9.png"></img>
-					   </div>
-						 <div class="img-div" style="position: absolute; top: 138px; left: 214px; height: 254px;  width: 531px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image5.png"></img>
-					   </div>
-
-
-					<aside class="notes">
-					Notes for slide 18
-					Key in understanding and measuring the performance of an SDI, is the impact this SDI has. SDIs only will have impact in case they improve the availaiblity and accessibility of spatial data, and these data are used by government, the private sector and other users. 
-					<br>
-					<br>While the latter aspects of the assessment span, i.e. use and especially impact, are the most relevant, they also are the most difficult to assess. That is why SDI assessment tend to focus on the readiness of SDIs (i.e. the extent to which different SDI components have been put in place) and the availability and accessibility of data. 
-					<br>
-					<br>
-					<br>18<br></aside>
-					</section>
-					<section id="slide19">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>SDI assessment </h2>
-					   </div>
-					   <div class="all-div" style="position: absolute; top: 421px; left: 222px; height: 40px;  width: 514px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/arrow1_1.png"></img>
-					   </div>
-						 <div class="img-div" style="position: absolute; top: 104px; left: 214px; height: 50px;  width: 531px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image9.png"></img>
-					   </div>
-						 <div class="img-div" style="position: absolute; top: 138px; left: 214px; height: 254px;  width: 531px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image5.png"></img>
-					   </div>
-					     
-
-					<aside class="notes">
-					Notes for slide 19
-					Key in understanding and measuring the performance of an SDI, is the impact this SDI has. SDIs only will have impact in case they improve the availaiblity and accessibility of spatial data, and these data are used by government, the private sector and other users. 
-					<br>
-					<br>While the latter aspects of the assessment span, i.e. use and especially impact, are the most relevant, they also are the most difficult to assess. That is why SDI assessment tend to focus on the readiness of SDIs (i.e. the extent to which different SDI components have been put in place) and the availability and accessibility of data. 
-					<br>
-					<br>
-					<br>19<br></aside>
-					</section>
-					<section id="slide20">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<p style="font-size: 32px; text-align: center;">SDI assessment </p>
-					   </div>
-					  
-						<div class="all-div" style="position: absolute; top: 400px; left: 222px; height: 40px;  width: 514px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/arrow1_1.png"></img>
-					   </div>
-						 <div class="img-div" style="position: absolute; top: 104px; left: 214px; height: 50px;  width: 531px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image9.png"></img>
-					   </div>
-						 <div class="img-div" style="position: absolute; top: 138px; left: 214px; height: 254px;  width: 531px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image5.png"></img>
-					   </div>
-
-					   <div class="all-div" style="position: absolute; top: 451px; left: 222px; height: 40px;  width: 514px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/arrow2.png"></img>
-					   </div>
-				 	   
-					<aside class="notes">
-					Notes for slide 20
-					Key in understanding and measuring the performance of an SDI, is the impact this SDI has. SDIs only will have impact in case they improve the availaiblity and accessibility of spatial data, and these data are used by government, the private sector and other users. 
-					<br>
-					<br>While the latter aspects of the assessment span, i.e. use and especially impact, are the most relevant, they also are the most difficult to assess. That is why SDI assessment tend to focus on the readiness of SDIs (i.e. the extent to which different SDI components have been put in place) and the availability and accessibility of data. 
-					<br>
-					<br>
-					<br>20<br></aside>
-					</section>
-					<section id="slide21">
-					   <div class="ppt-txt" style="position: absolute; top: 508px; left: 384px; height: 17px;  width: 108px">
-					<br>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Span of SDI performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 144px; left: 193px; height: 317px;  width: 562px">
-					<p style="font-size: 20px;">‘Performance’ of SDI can be defined and measured in various ways:
-					</p><ul>
-					<li style="font-size: 18px;">Readiness of the infrastructure
-					</li>
-					<li style="font-size: 18px;">Organizational maturity of the infrastructure
-					</li>
-					<li style="font-size: 18px;">Suitability of the geoportal
-					</li>
-					<li style="font-size: 18px;">Level of implementation of different components
-					</li>
-					<li style="font-size: 18px;">Availability of geographic data
-					</li>
-					<li style="font-size: 18px;">Application of principles of open data
-					</li>
-					<li style="font-size: 18px;">Number of users of geographic data
-					</li>
-					<li style="font-size: 18px;">Use of geographic data in society
-					</li>
-					<li style="font-size: 18px;">Social benefits of the infrastructure
-					</li>
-					<li style="font-size: 18px;">Economic benefits of open geographic data
-					</li>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					   </div>
-					<aside class="notes">
-					Notes for slide 21
-					21<br>It can be seen that many of the ways SDIs are assessed (i.e. the scope of the assessment and the indicators used) are linked to different elements of the span of performance (i.e. readiness, data, use and impact)<br></aside>
-					</section>
-					<section id="slide22">
-					   
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Span of SDI performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 144px; left: 193px; height: 317px;  width: 562px">
-					<p style="font-size: 20px;">‘Performance’ of SDI can be defined and measured in various ways:
-					</p><ul>
-					<li style="font-size: 18px;">Readiness of the infrastructure
-					</li>
-					<li style="font-size: 18px;">Organizational maturity of the infrastructure
-					</li>
-					<li style="font-size: 18px;">Suitability of the geoportal
-					</li>
-					<li style="font-size: 18px;">Level of implementation of different components
-					</li>
-					<li style="font-size: 18px;">Availability of geographic data
-					</li>
-					<li style="font-size: 18px;">Application of principles of open data
-					</li>
-					<li style="font-size: 18px;">Number of users of geographic data
-					</li>
-					<li style="font-size: 18px;">Use of geographic data in society
-					</li>
-					<li style="font-size: 18px;">Social benefits of the infrastructure
-					</li>
-					<li style="font-size: 18px;">Economic benefits of open geographic data
-					</li>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 170px; left: 649px; height: 95px;  width: 137px">
-					<table border="2px; red" class="fragment"><td><b>Readiness</b></td></table>
-					 </div>
-					<div class="ppt-txt" style="position: absolute; top: 245px; left: 649px; height: 95px;  width: 137px">
-					<table border="2px; red" class="fragment"><td><b>Data</b></td></table>
-					</div>
-					<div class="ppt-txt" style="position: absolute; top: 320px; left: 649px; height: 95px;  width: 137px">
-					<table border="2px; red" class="fragment"><td><b>Use</b></td></table>
-					</div>
-					<div class="ppt-txt" style="position: absolute; top: 395px; left: 649px; height: 95px;  width: 137px">
-					<table border="2px; red" class="fragment"><td><b>Impact</b></td></table>
-					</div>
-					<aside class="notes">
-					Notes for slide 22
-					22<br>It can be seen that many of the ways SDIs are assessed (i.e. the scope of the assessment and the indicators used) are linked to different elements of the span of performance (i.e. readiness, data, use and impact)<br>
-					Notes for slide 23
-					23<br>It can be seen that many of the ways SDIs are assessed (i.e. the scope of the assessment and the indicators used) are linked to different elements of the span of performance (i.e. readiness, data, use and impact)<br>
-					Notes for slide 24
-					24<br>It can be seen that many of the ways SDIs are assessed (i.e. the scope of the assessment and the indicators used) are linked to different elements of the span of performance (i.e. readiness, data, use and impact)<br>
-					Notes for slide 25
-					25<br>It can be seen that many of the ways SDIs are assessed (i.e. the scope of the assessment and the indicators used) are linked to different elements of the span of performance (i.e. readiness, data, use and impact)<br> </aside>
-					</section>
-					<section id="slide26">
-					     <div class="ppt-txt" style="position: absolute; top: 50px; left: 207px; height: 164px;  width: 546px">
-					<p style="color:grey; text-align: left">1. Introduction<br>
-					2. Why SDI assessment is important<br>
-					3. The span of performance<br>
-					<b style="color:#5DADE2" >4. The depth of performance</b></p>
-					 </div>
-					</section>
-					<section id="slide27">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Depth of performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 57px; height: 349px;  width: 875px">
-					<br>
-					<p style="font-size: 24px;"><u>Vertical</u> dimension of performance
-					</p>
-					<br>
-					<p style="font-size: 24px;">Performance can be measured - and managed - at different – (interrelated) levels
-					</p>
-					<br>
-					<p style="font-size: 24px;">Typical levels in public sector performance:
-					</p>
-					<ul><li style="font-size: 20px;">Micro performance is at the level of an organisation
-					</li>
-					<li style="font-size: 20px;">Meso performance is at the level of a policy area
-					</li>
-					<li style="font-size: 20px;">Macro performance is government (or infrastructure) wide</li></ul>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 0px; left: 0px; height: 0px;  width: 0px">
-					<br>
-					   </div>
-					<aside class="notes">
-					Notes for slide 27
-					27<br></aside>
-					</section>
-					<section id="slide28">
-					   <div class="ppt-txt" style="position: absolute; top: 508px; left: 384px; height: 17px;  width: 108px">
-					<br>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Depth of performance</h2>
-					   </div>
-					   <div class="img-div" style="position: absolute; top: 157px; left: 495px; height: 265px;  width: 330px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image6.png"></img>
-					   </div>
-
-					   <div class="ppt-txt" style="position: absolute; top: 117px; left: 148px; height: 370px;  width: 326px">
-					<br>
-					<p style="font-size: 20px;">Apply the input – output – outcome scheme at the three levels of an individual organisation, a policy field and the consolidated government-wide level
-					</p>
-					<br>
-					<p style="font-size: 20px;">Need to match input, activities, output and outcome/effects at micro, meso, and macro level
-					</p>
-					<br>
-					   </div>
-					<aside class="notes">
-					Notes for slide 28
-					28<br></aside>
-					</section>
-					<section id="slide29">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Depth of SDI performance</h2>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 106px; left: 163px; height: 349px;  width: 641px">
-					<br>
-					<p style="font-size: 24px;">Also the performance of SDIs can be measured at different levels:
-					</p><ul>
-					<li style="font-size: 24px;">Data sets
-					</li>
-					<li style="font-size: 24px;">Organizations
-					</li>
-					<li style="font-size: 24px;">Policy chains and policy areas
-					</li>
-					<li style="font-size: 24px;">Government wide
-					</li>
-					<li style="font-size: 24px;">Country wide (government + private sector + other sectors)
-					</li>
-					<li style="font-size: 24px;">Globally
-					</li></ul>
-					<br>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 508px; left: 120px; height: 17px;  width: 108px">
-					<br>
-					   </div>
-					<aside class="notes">
-					Notes for slide 29
-					29<br></aside>
-					</section>
-					<section id="slide30">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Example: INSPIRE</h2>
-					   </div>
-					   <div class="all-div" style="position: absolute; top: 122px; left: 147px; height: 360px;  width: 666px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image7.png"></img>
-					   </div>
-
-					<aside class="notes">
-					Notes for slide 30
-					Monitoring of the status of implementation of INSPIRE in different EU countries is based on information collected at the level of individual data sets and services
-					<br>
-					<br> <br>30<br></aside>
-					</section>
-					<section id="slide31">
-					   <div class="ppt-txt" style="position: absolute; top: 29px; left: 66px; height: 104px;  width: 828px">
-					<h2>Learning activity (conclusion)</h2>
-					   </div>
-					   <div class="img-div" style="position: absolute; top: 133px; left: 472px; height: 397px;  width: 488px">
-						  <img class="ppt-img" data-src="https://eo4geo.sbg.ac.at/KULeuven/Management_view_SDI/SDI_performance/image8.png"></img>
-					   </div>
-
-					   <div class="ppt-txt" style="position: absolute; top: 503px; left: 316px; height: 27px;  width: 180px">
-					<p style="font-size: 16px;"><i>Source: Grus, 2010</i></p>
-					   </div>
-					   <div class="ppt-txt" style="position: absolute; top: 126px; left: 53px; height: 414px;  width: 386px">
-					<p style="font-size: 24px;">Questions:
-					</p>
-					<br>
-					<p style="font-size: 16px;">Which of the countries included in the table on the right has the best SDI? And why?
-					</p>
-					<br>
-					<p style="font-size: 16px;">The assessment approaches used in the table apply a different span of performance. What does this mean? How could this affect the results of the assessment?
-					</p>
-					<br>
-					<p style="font-size: 16px;">The assessment approaches could also apply a different depth of performance. What does this mean? How could this affect the results of the assessment?
-					</p>
-					<br>
-					<p style="font-size: 16px;">What could be other reasons why different assessments of the same SDIs provide different results?
-					</p>
-					<br>
-					<br>
-					   </div>
-					<aside class="notes">
-					No notes for slide 31
-					</section>
-						
-
-
-					
-									
-									
-				
-				<!-- AUTHORS: CREATE YOUR LIST OF REFERENCES HERE: -->
-				<section> 
-				<h2> Reference list </h2>
-				<br>
-				<ul style="font-size:16px"><br><br>
-				<li>Crompvoets, J., Rajabifard, A., Van Loenen, B., & Fernández, T. D. (2008). A multi-view framework to assess SDIs. Wageningen University, RGI.</li>
-				<br>
-				<li>Giff, G. A., & Crompvoets, J. (2008). Performance indicators a tool to support spatial data infrastructure assessment. Computers, Environment and Urban Systems, 32(5), 365-376.</li>
-				<br>
-				<li>Vancauwenberghe, G., Valečkaitė, K., Van Loenen, B., & Donker, F. W. (2018). Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI. International Journal of Spatial Data Infrastructures Research, 13, 88-100.</li>
-				</ul>
-				</section>
-
+			</section>
+			<section>
 				<section>
-				<h2> Further Modules are under development... </h2>
+					<a href="index_05_SDI_performance.html"><h1 style="font-size:60px">05 | SDI performance and assessment</h1></a><br>
+					<h2 style="font-size:30px">How SDI perfom in comparison with others SDI's, learning from best practices and options for improvement</h2><br>
+					<img width="300" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="SADL" align=center-left>
+					<img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+					<a href="index_05_SDI_performance.html"><img width="100" height="100" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/image4689.png" alt="KU Leuven" align=center-right></a>
+				</section>
+			</section>
+	
+
 				
-						
-                </section>
-
-              </div>
-
+			</div>
 
 		<script src="internal_restricted/v1.0/js/reveal.js"></script>
 
 		<script>
 
 			Reveal.initialize({
-                //disableLayout:true,
 				controls: true,
 				progress: true,
 				history: true,
 				center: true,
-				width: 960,
-				height: 540,
-			simplemenu: {
-				menuselector: '.menu a'
-			},
+				slideNumber: 'c/t',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
@@ -872,21 +194,11 @@
                     { src: './internal_restricted/v1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: './internal_restricted/v1.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: './internal_restricted/v1.0/plugin/notes/notes.js' },{ src: 'socket.io/socket.io.js', async: true },
-					{ src: './internal_restricted/v1.0/plugin/notes-server/client.js', async: true },
-				{ src: './internal_restricted/v1.0/plugin/markdown/assets/js/revealjs/plugin/simplemenu/simplemenu.js', async: false } 					
+					{ src: './internal_restricted/v1.0/plugin/notes-server/client.js', async: true }
+					
 				]
-			
 			});
-			Reveal.addEventListener( "resize", function(event){
-			document.getElementById("div3").innerHTML = '<iframe id="pdf3" src="resources/SDI-standards.pdf#page=5&toolbar=0&view=FitW" width="100%" height="500" ></iframe>';
-			<!-- document.getElementById("pdf3").src = "resources/SDI-standards.pdf#page=1&toolbar=0&view=FitW"; -->
-			document.getElementById("reflist").innerHTML="resized"});
-			<!--  document.getElementById("pdf3").contentWindow.location.reload()});
-			<!-- "src","resources/SDI-standards.pdf#page=8&toolbar=0&view=fitW");
-			
-			<!-- Reveal.background-color=#EEEEEE}); -->
-			Reveal.addEventListener( "slidechanged",function(event){
-			document.getElementById("reflist").innerHTML="slide changed"});
+
 		</script>
 		
 		<!-- rauslöschen?? -->
