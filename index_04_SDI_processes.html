@@ -1,0 +1,193 @@
+<!-- 	Template Authors: Stefan Lang, Eva Missoni - PLUS 
+		Template Creation Date: March-June 2020 
+		
+		IMPORTANT NOTICES FOR USERS/AUTHORS: 
+		SECTIONS TO BE EDITED BY AUTHORS ARE INDICATED AS FOLLOWS:  <!-- AUTHORS: DEFINE ... --> 
+<!--	THE COMMANDS <section> and </section>  EMBRACE THE CONTENT FOR EACH SINGLE SLIDE.
+		ALTERNATIVELY, YOU CAN USE MARKDOWN NOTATION TO CREATE YOUR SLIDES. More information: https://github.com/webpro/reveal-md 
+		-->
+		
+		
+<!doctype html>
+<html lang="en" >
+
+	<head>
+		<meta charset="utf-8">
+		 
+		<title>SDI and processes</title>
+
+		<link rel="stylesheet" href="internal_restricted/v1.0/css/reveal.css">
+		<!-- CHOOSE BETWEEN 2 EO4GEO TEMPLATE THEMES:-->
+		<link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo.css" id="theme"> <!-- white background design --> 
+		<!-- <link rel="stylesheet" href="internal_restricted/v1.0/plugin/markdown/css/theme/simplemenu.css"> -->
+		<!-- <link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo_grey.css" id="theme">  <!-- anthrazit background design --> 
+		<!-- EO4GEO FONT ROBOTO SLAB -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'> 
+		<link rel="stylesheet" href="partnerLogo.css" id="theme"> 
+		<link rel="stylesheet" href="customer_content/css/eo4geo_override.css" id="theme">
+
+    <!-- base target="_blank" --> <!-- All links in the presentation are opened in a seperate tab"-->
+    
+	</head>
+
+	<body>
+		  
+		<div class="reveal" >
+		
+			 <!-- FORMATTING FOR HEADER -->
+			
+					
+				 <div class = "eo4geologo" style="width: 11%;height : 11%" ></div>	
+			
+				 <div class = "partnerlogo" style="width: 15%;height : 11%" ></div>		
+				 <div  class = "presentation_title" style=" text-align: center " >SDI performance and assessment</div>	<!--The title of the presentation appears on each slide-->
+				 
+
+			<!-- AUTHORS: DEFINE METADATA FOR WHOLE SLIDESET HERE: (Dublin Core Metadata format, complemented by BoK-Concepts) >
+				@prefix dc: <http://purl.org/dc/terms/>.
+				@prefix eo4geo: <http://bok.eo4geo.eu/>.
+				<>  	dc:title "SDI performance and assessment";
+					dc:creator "Glenn Vancauwenberghe";
+					dc:subject "SDI";
+					dc:abstract " ";
+					dc:tableOfContents "(1)Introduction (2) Basics of business process management (3) SDI and government processes; 
+						(4) Basics of business process modelling;(5) Example";
+					dc:description "";
+					dc:contributor "--";
+					dc:created "2020-09-03";
+					dc:type "InteractiveResource";
+					dc:format "html";
+					dc:language "EN"; 
+					dc:SizeOrDuration "1.5h"
+					dc:audience "---";
+					dc:educationLevel "EQF 4";
+					dc:source " here to place sources"";
+					dc:rightsHolder "SADL, KU Leuven";
+					dc:license "CC BY-SA 4.0";
+					dc:relation eo4geo:"OI4-5b".	
+								-->
+
+
+				<div class="slides">
+		<section>
+			<section>
+					<div class="art-div" style="position: absolute; top: 28px; left: -100px; height:470px;  width: 1155px" >
+					<div class="ppt-h2" style="position: absolute; top: 00px; left: 0px; height: 58px;  width: 1128px">
+					<h1 style="font-size:50px">SDI and processes</h1><br>
+					</div><br>
+					<div class="art-div" style="position: absolute; top: 150px; left: 100px; height: 58px;  width: 895px">
+					<P style="font-size:30px; text-align:justify">How SDI data and components can be used to support the work processes of government –and other –organizations. What work processes are and how processes and their main components can be identified through business process modelling tools and languages.</p>
+					</div>
+					<div class="img-icons" style="position: absolute; top: 350px; left: 380px; height: 100px; width: 400px">
+					<img class="plain" height="60" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="SADL" align=center-left>
+					<img class="plain" height="60" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+					</div>
+					</div>
+			</section>
+			<section>
+				
+				<div class="ppt-txt" style="position: absolute; top: 80px; left: -40px; height: 400px; width: 1000px">
+				<h2>WELCOME! </h2> 
+						<p style="font-size:19px; text-align:justify;">The following modules give an overview of the non-technical aspects related to Spatial Data Infrastructures (SDI). This training material aims to guide and improve skills of SDI owners and managers.<br><br>
+						This course material has been developed using tools, concepts and guidelines under the framework of the <a href="http://www.eo4geo.eu/">EO4GEO </a> project. Unless stated otherwise, all rights for figures and additional material are with the author(s).<br><br>
+						<p style="font-size:19px; text-align:Justify">You can navigate through the course by pressing the navigation arrows at the bottom of each slide or using your arrow keys on your keyboard. You can move horizontally <span style="color: rgb(44, 130, 201);"><strong>(</strong></span><span style="color: rgb(41, 105, 176);"><strong>&larr; &rarr;)</strong>&nbsp;</span>for viewing each theme and vertically <strong><span style="color: rgb(44, 130, 201);">(&uarr;&darr;)</span></strong> to navigate through its contents.&nbsp;</p>	
+				</div>
+				<div class="all-div" style="position: absolute; top: 360px; left: -40px; height: 100px; width: 1000px">
+					<img  class="plain" height="70" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/KULEUVEN_SADL_CMYK_LOGO.png" alt="KU Leuven" align=center-left>
+						<img  class="plain" height="70" data-src="https://eo4geo.sbg.ac.at/KULeuven/resources/template_WhatCopernicus/logo_versie3.bmp" alt="KU Leuven" align=center-right>
+					<p style="font-size:15px; text-align:center;">Copyright <a href="http://sadl.kuleuven.be/">SADL</a>, KU Leuven<br>
+					August 2020</p>
+				</div>
+			</section>
+		</section>	
+				
+
+				<section id="slide2">
+					<div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
+					   <h2 style="color:#5DADE2;">SDI and processes</h2>
+					</div><br><br><br>
+					<div style="position: absolute; width: 100%; left: 0em">
+					<table>
+						
+						<tr><td><a href="#slide2">1</a></td><td>Introduction</td></tr>
+						<tr><td><a href="#slide2">2</a></td><td>Basics of business process management</td></tr>
+						<tr><td><a href="#slide2">3</a></td><td>SDI and government processes</td></tr>
+						<tr><td><a href="#slide2">4</a></td><td>Basics of business process modelling</td></tr>
+						<tr><td><a href="#slide2">5</a></td><td>Example</td></tr>
+					</table></div>
+				</section>
+				<section>
+				<div class="ppt-h2" style="position: absolute; top: 45px; left: 66px; height: 58px;  width: 828px">
+				<h2>Content under development</h2>
+				</div>
+				</section>
+	
+									
+									
+				
+				<!-- AUTHORS: CREATE YOUR LIST OF REFERENCES HERE: -->
+				<section> 
+				<h2> Reference list </h2>
+				<br>
+				<ul style="font-size:16px"><br><br>
+				<li>-----</li>
+				</ul>
+				</section>
+
+
+              </div>
+
+
+		<script src="internal_restricted/v1.0/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+                //disableLayout:true,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: 'c/t',
+				width: 960,
+				height: 540,
+			simplemenu: {
+				menuselector: '.menu a'
+			},
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: './internal_restricted/v1.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: './internal_restricted/v1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: './internal_restricted/v1.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: './internal_restricted/v1.0/plugin/notes/notes.js' },{ src: 'socket.io/socket.io.js', async: true },
+					{ src: './internal_restricted/v1.0/plugin/notes-server/client.js', async: true },
+				{ src: './internal_restricted/v1.0/plugin/markdown/assets/js/revealjs/plugin/simplemenu/simplemenu.js', async: false } 					
+				]
+			
+			});
+			Reveal.addEventListener( "resize", function(event){
+			document.getElementById("div3").innerHTML = '<iframe id="pdf3" src="resources/SDI-standards.pdf#page=5&toolbar=0&view=FitW" width="100%" height="500" ></iframe>';
+			<!-- document.getElementById("pdf3").src = "resources/SDI-standards.pdf#page=1&toolbar=0&view=FitW"; -->
+			document.getElementById("reflist").innerHTML="resized"});
+			<!--  document.getElementById("pdf3").contentWindow.location.reload()});
+			<!-- "src","resources/SDI-standards.pdf#page=8&toolbar=0&view=fitW");
+			
+			<!-- Reveal.background-color=#EEEEEE}); -->
+			Reveal.addEventListener( "slidechanged",function(event){
+			document.getElementById("reflist").innerHTML="slide changed"});
+		</script>
+		
+		<!-- rauslöschen?? -->
+		<script>Reveal.initialize({
+			simplemenu: {
+				menuselector: '.menu a'
+			},
+			dependencies: [
+				{ src: './internal_restricted/v1.0/plugin/markdown/assets/js/revealjs/plugin/simplemenu/simplemenu.js', async: false } 
+			]
+			});
+		</script>
+
+	</body>
+</html>
