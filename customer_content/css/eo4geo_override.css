@@ -8,20 +8,22 @@
  
  
 body:after {
-content: url(../images/eo4geocourses_logo.png);
-position: fixed;
-bottom: 3.5em;
-left: 3.5em;
-box-shadow: 5px 5px 10px #000; }
+	content: url(../images/eo4geocourses_logo.png);
+	position: fixed;
+	bottom: 3.5em;
+	left: 3.5em;
+	box-shadow: 5px 5px 10px #000; }
 
 .reveal {
 /*	color: black; */
-	font-family: Arial;
-	font-size: 30.3px;
+	/*font-size: 30.3px;*/
 	text-align: left;}
 
+.reveal h1{
+	font-weight: 600;
+	}
 .reveal h2{
-	font-family: Arial;
+	
 	font-size: 39px;
     font-weight: bold;
 	text-align: center;
@@ -38,14 +40,14 @@ box-shadow: 5px 5px 10px #000; }
 	padding-right: 16px;
 	padding-top: 8px; */
     vertical-align: middle;
-    /* border:2px solid Orange;*/}
+    /*border:2px solid Orange;*/}
 
 .reveal div.ppt-txt{
 	text-align: left;
 	padding-left: 16px;
 	padding-right: 16px;
 	padding-top: 8px;
-    /* border:2px solid Red; */
+    /*border:2px solid Red;*/
 	}
 /* ppt-txt-center can be used e.g. for small boxes with small text where theme
 standard padding would take too much of the area */
@@ -59,20 +61,34 @@ reveal div.ppt-txt-center{
 .reveal div.img-div{
     /* border:2px solid Green; */ 
 	}
+.reveal div.img-icons{
+	/*border:2px solid red;*/
+	background: none;
+	box-shadow: none;
+	height: 70px;
+	width:70px;
+	display: block;
+	padding:none;
+	
+	
+	}
 .reveal div.art-div{
-    /* border:2px dashed Green; */
+    /*border:2px dashed Green;*/
 	}
 .reveal div.all-div{
     margin: 0px;
     padding: none;
-    /* border:2px dashed Yellow; */ 
+    /*border:2px dashed Yellow;*/
 	text-align: center;
 	font-size: 14px;
 	}
 .reveal div.tbl-div{
-    /* border:2px solid Blue;*/  
+    /*border:2px solid Blue;*/ 
 	}
-
+.reveal div.tbl-content{
+	/*border:2px solid green;*/
+	padding: 8px
+	}
 .reveal section img.ppt-img {
   margin: 0px;
   font-size: 14px;
